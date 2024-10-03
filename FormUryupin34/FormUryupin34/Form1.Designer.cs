@@ -241,7 +241,7 @@ namespace FormUryupin34
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "TestAI";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTRUE)).EndInit();
             this.ResumeLayout(false);
 
