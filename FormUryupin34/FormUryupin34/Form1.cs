@@ -116,7 +116,7 @@ namespace FormUryupin34
             string pathDir;             //каталог с файлом обучающей выборки
             string nameFileTrain;       //имя файла обучающей выборки
             pathDir = AppDomain.CurrentDomain.BaseDirectory;
-            nameFileTrain = pathDir + "train.txt";
+            nameFileTrain = pathDir + "testInfo.txt";
             string[] tmpStr = new string[1];                     //временная строка
             tmpStr[0] = vale.ToString();
             for (int i = 0; i < 15; i++)
@@ -124,11 +124,7 @@ namespace FormUryupin34
                 tmpStr[0] += input[i] ? "1" : "0" ;
             }
 
-/*            if (File.Exists(nameFileTrain))
-            {*/
                 File.AppendAllLines(nameFileTrain, tmpStr);
-
-/*            }*/
 
         }
     }

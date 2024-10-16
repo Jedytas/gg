@@ -8,3 +8,13 @@ C:\Users\s0184542\source\repos\FormUryupin34\FormUryupin34\bin\Debug\FormUryupin
 C:\Users\s0184542\source\repos\FormUryupin34\FormUryupin34\bin\Debug\FormUryupin34.pdb
 C:\Users\s0184542\source\repos\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.exe
 C:\Users\s0184542\source\repos\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.pdb
+C:\Users\HomeStationPC\Desktop\gg-main\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.csproj.AssemblyReference.cache
+C:\Users\HomeStationPC\Desktop\gg-main\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.Form1.resources
+C:\Users\HomeStationPC\Desktop\gg-main\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.Properties.Resources.resources
+C:\Users\HomeStationPC\Desktop\gg-main\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.csproj.GenerateResource.cache
+C:\Users\HomeStationPC\Desktop\gg-main\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.csproj.CoreCompileInputs.cache
+C:\Users\HomeStationPC\Desktop\gg-main\FormUryupin34\FormUryupin34\bin\Debug\FormUryupin34.exe.config
+C:\Users\HomeStationPC\Desktop\gg-main\FormUryupin34\FormUryupin34\bin\Debug\FormUryupin34.exe
+C:\Users\HomeStationPC\Desktop\gg-main\FormUryupin34\FormUryupin34\bin\Debug\FormUryupin34.pdb
+C:\Users\HomeStationPC\Desktop\gg-main\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.exe
+C:\Users\HomeStationPC\Desktop\gg-main\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.pdb
