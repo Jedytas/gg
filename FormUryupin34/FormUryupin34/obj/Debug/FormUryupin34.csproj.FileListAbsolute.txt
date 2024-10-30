@@ -28,3 +28,13 @@ Z:\gg-main\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.csproj.GenerateRe
 Z:\gg-main\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.csproj.CoreCompileInputs.cache
 Z:\gg-main\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.exe
 Z:\gg-main\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.pdb
+C:\Users\HomeStationPC\Desktop\neuro\FormUryupin34\FormUryupin34\bin\Debug\FormUryupin34.exe.config
+C:\Users\HomeStationPC\Desktop\neuro\FormUryupin34\FormUryupin34\bin\Debug\FormUryupin34.exe
+C:\Users\HomeStationPC\Desktop\neuro\FormUryupin34\FormUryupin34\bin\Debug\FormUryupin34.pdb
+C:\Users\HomeStationPC\Desktop\neuro\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.csproj.AssemblyReference.cache
+C:\Users\HomeStationPC\Desktop\neuro\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.Form1.resources
+C:\Users\HomeStationPC\Desktop\neuro\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.Properties.Resources.resources
+C:\Users\HomeStationPC\Desktop\neuro\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.csproj.GenerateResource.cache
+C:\Users\HomeStationPC\Desktop\neuro\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.csproj.CoreCompileInputs.cache
+C:\Users\HomeStationPC\Desktop\neuro\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.exe
+C:\Users\HomeStationPC\Desktop\neuro\FormUryupin34\FormUryupin34\obj\Debug\FormUryupin34.pdb

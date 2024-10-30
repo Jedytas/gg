@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.IO;
-
+using System.Collections.Generic;
 
 namespace FormUryupin34.NeuroLink
 {
@@ -16,6 +16,7 @@ namespace FormUryupin34.NeuroLink
         protected const double momentum = 0.05d;
         protected double[,] lastdeltaweights;
         Neuron[] _neurons;
+        private static readonly Random rand = new Random(); // Один генератор случайных чисел
 
         public Neuron[] Neurons { get => _neurons; set => _neurons = value; }
 
@@ -23,15 +24,15 @@ namespace FormUryupin34.NeuroLink
         {
             set
             {
-                for(int i=0;i<Neurons.Length; i++)
+                for (int i = 0; i < Neurons.Length; i++)
                 {
                     Neurons[i].Inputs = value;
-                    Neurons[i].Activator(Neurons[i].Inputs);
+                    Neurons[i].Activator(Neurons[i].Inputs, Neurons[i].Weights);
                 }
             }
         }
 
-        //конструктор
+        // Конструктор
         protected Layer(int non, int nopn, NeuronType nt, string nm_Layer)
         {
             numofneurons = non;
@@ -52,11 +53,10 @@ namespace FormUryupin34.NeuroLink
             }
         }
 
-        private double[,] WeightInitialize(MemoryMode mm, string path) //метод работы с массивом синаптических весов
+        private double[,] WeightInitialize(MemoryMode mm, string path)
         {
             int i, j;
             char[] delim = new char[] { ';', ' ' };
-            string tmpStr;
             string[] tmpStrweights;
             double[,] weights = new double[numofneurons, numofprevneurons + 1];
 
@@ -64,20 +64,57 @@ namespace FormUryupin34.NeuroLink
             {
                 case MemoryMode.GET:
                     tmpStrweights = File.ReadAllLines(path);
-                    string[] memory_element;
-                    for(i=0;i<numofneurons; i++)
+                    for (i = 0; i < numofneurons; i++)
                     {
-                        memory_element = tmpStrweights[i].Split(delim);
+                        string[] memory_element = tmpStrweights[i].Split(delim);
                         for (j = 0; j < numofprevneurons + 1; j++)
                         {
                             weights[i, j] = double.Parse(memory_element[j].Replace(',', '.'), System.Globalization.CultureInfo.InvariantCulture);
                         }
                     }
                     break;
+
+                case MemoryMode.SET:
+                    List<string> lines = new List<string>();
+                    for (i = 0; i < numofneurons; i++)
+                    {
+                        string line = "";
+                        for (j = 0; j < numofprevneurons + 1; j++)
+                        {
+                            line += weights[i, j].ToString(System.Globalization.CultureInfo.InvariantCulture) + ";";
+                        }
+                        lines.Add(line.TrimEnd(';'));
+                    }
+                    File.WriteAllLines(path, lines);
+                    break;
+
+                case MemoryMode.INIT:
+                    for (i = 0; i < numofneurons; i++)
+                    {
+                        double sum = 0;
+                        double sumSquares = 0;
+
+                        for (j = 0; j < numofprevneurons + 1; j++)
+                        {
+                            double randomWeight = rand.NextDouble() * 2 - 1; // значение в диапазоне (-1; 1)
+                            weights[i, j] = randomWeight;
+                            sum += randomWeight;
+                            sumSquares += randomWeight * randomWeight;
+                        }
+
+                        double mean = sum / (numofprevneurons + 1);
+                        double stdDev = Math.Sqrt(sumSquares / (numofprevneurons + 1) - mean * mean);
+
+                        for (j = 0; j < numofprevneurons + 1; j++)
+                        {
+                            weights[i, j] = (weights[i, j] - mean) / stdDev; // нормализация весов
+                        }
+                    }
+
+                    WeightInitialize(MemoryMode.SET, path); // сохранение нормализованных весов в файл
+                    break;
             }
             return weights;
         }
     }
-
-
 }
