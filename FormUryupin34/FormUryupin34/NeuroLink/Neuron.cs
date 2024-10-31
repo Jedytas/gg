@@ -17,9 +17,10 @@ namespace FormUryupin34.NeuroLink
         public double Derivative { get => _derivative; }
 
         // конструктор
-        public Neuron(NeuronType type)
+        public Neuron(double[] weights, NeuronType type)
         {
             _type = type;
+            _weights = weights;
         }
 
         // активация ReLU

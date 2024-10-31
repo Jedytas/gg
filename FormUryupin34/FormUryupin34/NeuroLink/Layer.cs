@@ -51,6 +51,18 @@ namespace FormUryupin34.NeuroLink
                 Directory.CreateDirectory(pathDirWeights);
                 Weights = WeightInitialize(MemoryMode.INIT, pathFileWeights);
             }
+
+            lastdeltaweights = new double[non, nopn + 1];
+
+            for(int i = 0; i < non; i++)
+            {
+                double[] tmp_weights = new double[nopn + 1];
+                for(int j = 0; j < nopn + 1; j++)
+                {
+                    tmp_weights[j] = Weights[i, j];
+                }
+                Neurons[i] = new Neuron(tmp_weights, nt);
+            }
         }
 
         private double[,] WeightInitialize(MemoryMode mm, string path)
@@ -116,5 +128,9 @@ namespace FormUryupin34.NeuroLink
             }
             return weights;
         }
+
+        abstract public void Recognize(NetWork net, Layer nextLayer);   //для прямых проходов
+
+        abstract public double[] BackwardPass(double[] stuff);          //и для обратных
     }
 }

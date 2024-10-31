@@ -47,6 +47,7 @@ namespace FormUryupin34
             this.buttonSaveTestSample = new System.Windows.Forms.Button();
             this.numericUpDownTRUE = new System.Windows.Forms.NumericUpDown();
             this.buttonSaveTrainSample = new System.Windows.Forms.Button();
+            this.Answer = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTRUE)).BeginInit();
             this.SuspendLayout();
             // 
@@ -234,12 +235,22 @@ namespace FormUryupin34
             this.buttonSaveTrainSample.UseVisualStyleBackColor = false;
             this.buttonSaveTrainSample.Click += new System.EventHandler(this.buttonSaveTrainSample_Click);
             // 
+            // Answer
+            // 
+            this.Answer.AutoSize = true;
+            this.Answer.Location = new System.Drawing.Point(313, 247);
+            this.Answer.Name = "Answer";
+            this.Answer.Size = new System.Drawing.Size(37, 13);
+            this.Answer.TabIndex = 15;
+            this.Answer.Text = "Ответ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Answer);
             this.Controls.Add(this.buttonSaveTrainSample);
             this.Controls.Add(this.numericUpDownTRUE);
             this.Controls.Add(this.buttonSaveTestSample);
@@ -262,6 +273,7 @@ namespace FormUryupin34
             this.Text = "TestAI";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTRUE)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -285,6 +297,7 @@ namespace FormUryupin34
         private System.Windows.Forms.Button buttonSaveTestSample;
         private System.Windows.Forms.NumericUpDown numericUpDownTRUE;
         private System.Windows.Forms.Button buttonSaveTrainSample;
+        private System.Windows.Forms.Label Answer;
     }
 }
 

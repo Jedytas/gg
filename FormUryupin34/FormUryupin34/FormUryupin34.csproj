@@ -57,6 +57,7 @@
     <Compile Include="NeuroLink\InputLayer.cs" />
     <Compile Include="NeuroLink\Layer.cs" />
     <Compile Include="NeuroLink\NetWork.cs" />
+    <Compile Include="NeuroLink\Network1.cs" />
     <Compile Include="NeuroLink\Neuron.cs" />
     <Compile Include="NeuroLink\OutputLayer.cs" />
     <Compile Include="Program.cs" />

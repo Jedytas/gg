@@ -15,6 +15,7 @@ namespace FormUryupin34
    
     public partial class Form1 : Form
     { private bool[] _bStates;
+        private NeuroLink.Network net = new NeuroLink.Network();
         public Form1()
         {
             InitializeComponent();
