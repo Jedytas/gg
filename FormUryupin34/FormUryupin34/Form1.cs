@@ -1,25 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Linq;
 
 namespace FormUryupin34
 {
 
    
     public partial class Form1 : Form
-    { private bool[] _bStates;
-        private NeuroLink.Network net = new NeuroLink.Network();
+    { 
+        private bool[] _bStates;                                        //массив входных данных
+        private NeuroLink.NetWork network;                              //обьявление нейросети
+
+        //конструктор
         public Form1()
         {
             InitializeComponent();
             this._bStates = new bool[15];
+            network = new NeuroLink.NetWork();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -127,6 +127,23 @@ namespace FormUryupin34
 
                 File.AppendAllLines(nameFileTrain, tmpStr);
 
+        }
+
+        private void buttonTrain_Click(object sender, EventArgs e)
+        {
+            this.network.Train(this.network);                                                                      //кнопка обучить
+        }
+
+        private void recognizebutton_Click(object sender, EventArgs e)
+        {
+            double[]d = new double[15];
+            for(int i = 0; i < 15; i++)
+            {
+                d[i] = this._bStates[i] ? 1.0d : 0.0d;
+            }
+            network.ForwardPass(network,d);
+
+            Answer.Text = network.fact.ToList().IndexOf(network.fact.Max()).ToString();
         }
     }
 }

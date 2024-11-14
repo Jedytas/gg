@@ -48,6 +48,8 @@ namespace FormUryupin34
             this.numericUpDownTRUE = new System.Windows.Forms.NumericUpDown();
             this.buttonSaveTrainSample = new System.Windows.Forms.Button();
             this.Answer = new System.Windows.Forms.Label();
+            this.buttonTrain = new System.Windows.Forms.Button();
+            this.recognizebutton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTRUE)).BeginInit();
             this.SuspendLayout();
             // 
@@ -238,11 +240,31 @@ namespace FormUryupin34
             // Answer
             // 
             this.Answer.AutoSize = true;
-            this.Answer.Location = new System.Drawing.Point(313, 247);
+            this.Answer.Location = new System.Drawing.Point(335, 267);
             this.Answer.Name = "Answer";
             this.Answer.Size = new System.Drawing.Size(37, 13);
             this.Answer.TabIndex = 15;
             this.Answer.Text = "Ответ";
+            // 
+            // buttonTrain
+            // 
+            this.buttonTrain.Location = new System.Drawing.Point(440, 129);
+            this.buttonTrain.Name = "buttonTrain";
+            this.buttonTrain.Size = new System.Drawing.Size(100, 53);
+            this.buttonTrain.TabIndex = 16;
+            this.buttonTrain.Text = "Обучение";
+            this.buttonTrain.UseVisualStyleBackColor = true;
+            this.buttonTrain.Click += new System.EventHandler(this.buttonTrain_Click);
+            // 
+            // recognizebutton
+            // 
+            this.recognizebutton.Location = new System.Drawing.Point(440, 188);
+            this.recognizebutton.Name = "recognizebutton";
+            this.recognizebutton.Size = new System.Drawing.Size(100, 53);
+            this.recognizebutton.TabIndex = 17;
+            this.recognizebutton.Text = "Распознать";
+            this.recognizebutton.UseVisualStyleBackColor = true;
+            this.recognizebutton.Click += new System.EventHandler(this.recognizebutton_Click);
             // 
             // Form1
             // 
@@ -250,6 +272,8 @@ namespace FormUryupin34
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.recognizebutton);
+            this.Controls.Add(this.buttonTrain);
             this.Controls.Add(this.Answer);
             this.Controls.Add(this.buttonSaveTrainSample);
             this.Controls.Add(this.numericUpDownTRUE);
@@ -298,6 +322,8 @@ namespace FormUryupin34
         private System.Windows.Forms.NumericUpDown numericUpDownTRUE;
         private System.Windows.Forms.Button buttonSaveTrainSample;
         private System.Windows.Forms.Label Answer;
+        private System.Windows.Forms.Button buttonTrain;
+        private System.Windows.Forms.Button recognizebutton;
     }
 }
 

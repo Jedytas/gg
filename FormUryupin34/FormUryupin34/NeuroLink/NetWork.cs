@@ -28,8 +28,19 @@ namespace FormUryupin34.NeuroLink
         {
             net.hidden_layer1.Data = netInput;
             net.hidden_layer1.Recognize(null, net.hidden_layer2);
-            net.hidden_layer2.Recognize(null, net.hidden_layer1); //доделать
-            net.hidden_layer1.Recognize(null, net.hidden_layer2);
+            net.hidden_layer2.Recognize(null, net.output_layer);
+            net.output_layer.Recognize(net, null);
+        }
+
+        //обучение
+        public void Train (NetWork net) //backpropagation method
+        {
+            int epoches = 70;   //количество эрох обучения
+            net.input_layer = new InputLayer(NetworkMode.Train);    //инициализация входного слоя
+            double tmpSumError;     //временная переменная суммы ошибок
+            double[] errors;        //вектор(массив) сигнала ошибки выхожного слоя
+            double[] temp_gsums1;   //вектор градиента 1го скрытого слоя
+            double[] temp_gsums2;   //вектор градиента 2го скрытого слоя
         }
     }
 }
