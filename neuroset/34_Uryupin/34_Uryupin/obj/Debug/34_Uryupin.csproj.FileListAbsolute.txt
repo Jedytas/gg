@@ -1,0 +1,40 @@
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_sidorenko_gpt5\bin\Debug\34_Uryupin.exe.config
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_sidorenko_gpt5\bin\Debug\34_Uryupin.exe
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_sidorenko_gpt5\bin\Debug\34_Uryupin.pdb
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_sidorenko_gpt5\obj\Debug\34_Uryupin.csproj.AssemblyReference.cache
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_sidorenko_gpt5\obj\Debug\_34_Uryupin.MainForm.resources
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_sidorenko_gpt5\obj\Debug\_34_Uryupin.Properties.Resources.resources
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_sidorenko_gpt5\obj\Debug\34_Uryupin.csproj.GenerateResource.cache
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_sidorenko_gpt5\obj\Debug\34_Uryupin.csproj.CoreCompileInputs.cache
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_sidorenko_gpt5\obj\Debug\34_Uryupin.exe
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_sidorenko_gpt5\obj\Debug\34_Uryupin.pdb
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_Uryupin\bin\Debug\34_Uryupin.exe.config
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_Uryupin\bin\Debug\34_Uryupin.exe
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_Uryupin\bin\Debug\34_Uryupin.pdb
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.csproj.AssemblyReference.cache
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_Uryupin\obj\Debug\_34_Uryupin.MainForm.resources
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_Uryupin\obj\Debug\_34_Uryupin.Properties.Resources.resources
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.csproj.GenerateResource.cache
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.csproj.CoreCompileInputs.cache
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.exe
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\Basics-of-neural-network-models-main\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.pdb
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\bin\Debug\34_Uryupin.exe.config
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\bin\Debug\34_Uryupin.exe
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\bin\Debug\34_Uryupin.pdb
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.csproj.AssemblyReference.cache
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\_34_Uryupin.MainForm.resources
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\_34_Uryupin.Properties.Resources.resources
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.csproj.GenerateResource.cache
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.csproj.CoreCompileInputs.cache
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.exe
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\Новая папка\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.pdb
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\FINISH\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\bin\Debug\34_Uryupin.exe.config
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\FINISH\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\bin\Debug\34_Uryupin.exe
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\FINISH\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\bin\Debug\34_Uryupin.pdb
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\FINISH\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.csproj.AssemblyReference.cache
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\FINISH\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\_34_Uryupin.MainForm.resources
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\FINISH\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\_34_Uryupin.Properties.Resources.resources
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\FINISH\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.csproj.GenerateResource.cache
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\FINISH\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.csproj.CoreCompileInputs.cache
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\FINISH\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.exe
+C:\Users\HomeStationPC\Desktop\neuro\LAST YEAR\FINISH\НЕйросеть ГОТОВО\34_Uryupin\34_Uryupin\obj\Debug\34_Uryupin.pdb
